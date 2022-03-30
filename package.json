@@ -1,0 +1,23 @@
+{
+  "name": "calculator-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samanthaortiz/calculator-server.git"
+  },
+  "author": "Samantha Ortiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samanthaortiz/calculator-server/issues"
+  },
+  "homepage": "https://github.com/samanthaortiz/calculator-server#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3"
+  }
+}
