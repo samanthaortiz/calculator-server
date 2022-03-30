@@ -19,6 +19,11 @@ app.get("/ping", (req, res) => {
   return res.json({ping: "ok"})
 })
 
+app.get("/*", function (req, res) {
+  res.json({ status: "ok" });
+});
+
+
 app.listen(8080, () => {
   console.log("server is running on port 8080");
   console.log("Open your browser and hit url 'localhost:8080'");
